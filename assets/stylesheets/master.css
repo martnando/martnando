@@ -7,8 +7,7 @@ body {
     background: #000;
 }
 section {
-    display: flex;
-    flex-direction: column;
+    padding-top: 70px; 
 }
 header {
     background: #0f0c29;  /* fallback for old browsers */
@@ -17,6 +16,7 @@ header {
     text-align: center;
     width: 100%;
     z-index: 9;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
