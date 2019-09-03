@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background: #000;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 0;
+    width: 280px;
+    height: 50px;
+    background: url('../images/logo-completo.svg') center center no-repeat;
+    background-size: 100% auto;
+}
+header p {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+header ol {
+    display: flex;
+    justify-content: center;
+}
+header ol li {
+    margin: 5px;
+}
+header ol li span {
+    margin: 5px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+header ol li a {
+    color: #FFF;
+}
+
+
+
+article {
+    width: 100%;
+}
+article ul {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+article ul li {
+    padding: 0 !important;
+    margin: 0;
+}
+article ul li img {
+    margin-bottom: -6px;
+}
