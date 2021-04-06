@@ -1,0 +1,5 @@
+- 👋 Hi, i’m Fernando Martinello, designer and front-end from BraSil!
+- 👀 I’m interested in help devs
+- 🌱 I’m currently learning Javascript
+- 💞️ I’m looking to collaborate on projects that need design 
+- 📫 How to reach me on instagram @martnando
